@@ -48,7 +48,7 @@ const Services = () => {
       >
         <div className='title'>
           <img
-            src='/people.webp'
+            src='people.webp'
             alt=''
           />
           <h1>
