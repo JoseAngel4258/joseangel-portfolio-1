@@ -104,7 +104,7 @@ const Hero = () => {
         animate='animate'
       >
         <img
-          src='/moon.png'
+          src='/img/moon.png'
           alt=''
         />
       </motion.div>
