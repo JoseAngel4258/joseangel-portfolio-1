@@ -1,11 +1,15 @@
 @import '../../app.scss';
 
 .hero {
-  height: 100vh;
+  height: calc(100vh + 100px);
   overflow: hidden;
   background: linear-gradient(180deg, #0c0c1d, #111132);
   position: relative;
   padding: 40px;
+
+  @include mobile {
+    height: screen;
+  }
 
   .wrapper {
     max-width: 1366px;
@@ -76,11 +80,11 @@
     animation: animate 2s infinite ease alternate;
 
     @include mobile {
-      height: 50%;
+      height: 40%;
       top: unset;
       bottom: 0;
       margin-right: 40px;
-      margin-bottom: 100px;
+      margin-bottom: 200px;
       padding: 50px;
     }
 

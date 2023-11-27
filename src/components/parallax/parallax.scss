@@ -9,8 +9,11 @@
   justify-content: center;
   overflow: hidden;
 
+  @include mobile {
+    height: screen;
+  }
+
   h1 {
-    
     font-size: 100px;
     text-align: center;
     animation: animate 2s infinite ease alternate;
